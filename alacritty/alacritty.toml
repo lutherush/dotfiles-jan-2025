@@ -1,0 +1,101 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#2E3440"  # Nord dark blue
+foreground = "#D8DEE9"  # Nord light text
+
+[colors.normal]
+black = "#3B4252"      # Nord grey
+red = "#BF616A"        # Nord red
+green = "#A3BE8C"      # Nord green
+yellow = "#EBCB8B"     # Nord yellow
+blue = "#81A1C1"       # Nord blue
+magenta = "#B48EAD"    # Nord purple
+cyan = "#88C0D0"       # Nord light cyan
+white = "#E5E9F0"      # Nord off-white
+
+[colors.bright]
+black = "#4C566A"      # Bright grey
+red = "#BF616A"        # Bright red
+green = "#A3BE8C"      # Bright green
+yellow = "#EBCB8B"     # Bright yellow
+blue = "#81A1C1"       # Bright blue
+magenta = "#B48EAD"    # Bright magenta
+cyan = "#8FBCBB"       # Bright cyan
+white = "#ECEFF4"      # Bright white
+
+[colors.cursor]
+cursor = "#D8DEE9"     # Cursor color
+text = "CellBackground"
+
+[colors.selection]
+background = "#4C566A" # Selection background
+text = "CellForeground"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "Source Code Pro"
+style = "Regular"
+
+[font.bold]
+family = "Source Code Pro"
+style = "Bold"
+
+[font.italic]
+family = "Source Code Pro"
+style = "Italic"
+
+[font.bold_italic]
+family = "Source Code Pro"
+style = "Bold Italic"
+
+[scrolling]
+history = 10000  # Enable scrolling with extended history
+multiplier = 3   # Smooth scrolling multiplier
+
+[keyboard]
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mods = "Control"
+
+[window]
+dynamic_padding = false
+opacity = 0.95
+title = "Alacritty"

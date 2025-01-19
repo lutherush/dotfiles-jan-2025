@@ -1,0 +1,1073 @@
+make
+sudo make install
+startx
+cd configs/st-nord
+make
+sudo make install
+ranger
+xset s off
+xset -dpms
+cd Downloads
+rm -rf kali-linux-2020.1b-live-amd64.iso
+rm -rf kali-linux-2020.1b-live-amd64.iso.1
+rm -rf Parrot-security-4.8_x64.iso
+./Typora-0.9.19.glibc2.12-x86_64.AppImage
+sudo ./Typora-0.9.19.glibc2.12-x86_64.AppImage
+wget https://cdimage.kali.org/kali-2020.1b/kali-linux-2020.1b-live-amd64.iso
+neofetch
+sudo pacman -Rnsc neofetch
+annie
+sudo pacman -S neofetch
+neofetch
+sudo pacman -S hugo hexo
+sudo pacman -S hugo nodejs-hexo
+trizen hexo
+sudo pacman -S nodejs
+neofetch
+clear
+cd builds
+mkdir blog
+cd blog
+hugo new site blog
+cd blog
+git init
+git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+rm config.toml && cp themes/meme/config-examples/en/config.toml config.toml
+hugo new "posts/hello-world.md"
+hugo new "about/_index.md"
+hugo server -D
+ls
+vim config.toml
+hugo server -D
+cd static
+ls
+ls
+..
+cd themes
+ls
+cd meme
+ls
+vim theme.toml
+..
+ls
+..
+ls
+cd data
+ls
+..
+;s
+ls
+cd
+cd builds/blog
+vim
+vim Example.md
+vim
+clear
+sudo pacman -S jekyll
+trizen jekyll
+cd builds
+mkdir jekyll
+cd jekyll
+git clone https://github.com/poole/hyde.git
+git clone https://github.com/sharu725/online-cv.git
+neofetch
+cd builds/jekyll
+git clone https://github.com/dbtek/dbyll.git
+neofetch
+cd builds
+mkdir cppweb
+cd cppweb
+vim
+vim
+make
+vim Makefile
+make
+vim hello.cpp
+neofetch
+..
+cd jekyll
+cd dbyll
+gem install bundler
+bundle install
+bundle exec jekyll serve
+neofetch
+cd builds/jekyll/dbyll
+ls
+vim index.html
+cd _posts
+ls
+vim 2013-11-15-hello-world.md
+ls
+vim 2013-11-14-sample-2.md
+vim 2013-11-15-configuration.md
+..
+ls
+cd _site
+ls
+vim index.html
+sudo pacman -Rnsc jekyll hugo nodejs-hexo nodejs
+ann
+annie
+neofetch
+cd builds
+vim
+vim index.html
+sudo pacman -Syy
+sudo pacman -Syu
+trizen -Syu
+hugo
+cd builds/blog/blog/
+ls
+cd layouts
+ls
+..
+cd content
+ls
+cd about
+ls
+vim _index.md
+..
+cd posts
+ls
+vim hello-world.md
+..
+..
+cd content
+ls
+cd posts
+ls
+vim hello-world.md
+..
+..
+cd layouts
+ls
+..
+cd data
+ls
+..
+cd themes
+ls
+cd meme
+ls
+vim README.md
+vim theme.toml
+vim exampleSite/config.toml
+sudo pacman -S hugo
+..
+..
+ls
+..
+cd blog
+hugo server -D
+cd builds/blog/blog
+hugo new "posts/emacs.md"
+vim content/posts/emacs.md
+vim config.toml
+vim resources/_gen/assets/scss/scss/main.scss_a899b346ffc3a4bc65b84e40528dea51.json
+vim archetypes/default.md
+vim themes/meme/assets/js/main.js
+vim themes/meme/data/SVG.toml
+vim themes/meme/README.md
+vim themes/meme/static/manifest.json
+vim themes/meme/theme.toml
+ls
+cd content/posts
+mv emacs.md Emacs_as_windows_manager.md
+vim Emacs_as_windows_manager.md
+..
+vim vim about/_index.md
+..
+cd layouts
+ls
+..
+cd resources
+ls
+cd _gen
+ls
+cd assets
+ls
+cd scss
+ls
+cd scss
+ls
+vim main.scss_a899b346ffc3a4bc65b84e40528dea51.
+vim main.scss_a899b346ffc3a4bc65b84e40528dea51.content
+vim main.scss_a899b346ffc3a4bc65b84e40528dea51.json
+..
+..
+..
+ls
+..
+ls
+..
+ls
+vim themes/meme/layouts/404.html
+cd scripts/
+ls
+cd 
+cd builds
+ls
+..
+cd Documents
+ls
+..
+cd
+vim configs/dwm/config.h
+curl -s -L http://bit.ly/10hA8iC | bash
+curl -s -L http://bit.ly/10hA8iC | bash
+sudo pacman -S bspwm
+sudo pacman -S sxkhd
+sudo pacman -S sxhkd
+sudo pacman -S tint2
+cd scripts
+vim
+vim .xinitrc
+cd .config/bspwm
+ls
+vim
+cd scripts
+git clone https://github.com/lutherush/conky.git
+sudo pacman -S conky-lua
+trizen conky-lua
+conky
+cd
+conky
+cd scripts/conky
+ls
+cd conky
+ls
+cd samurai
+ls
+cp -r conky ~/
+cd
+cd conky
+ls
+feh corte-08-10-18-02.png
+feh corte-08-10-18-00.png
+ls
+cd openbox
+ls
+cd scripts/q
+cd scripts/
+ls
+..
+ls
+..
+ls
+vim start
+chmod +x start
+./start
+cd openbox
+ls
+vim cop
+sudo mount /dev/sdb /mnt
+cd /mnt
+ls
+..
+sudo umount /dev/sdb
+sudo dd if=/home/lutherus/Downloads/kali-linux-2020.1b-live-amd64.iso of=/dev/sdb
+startx
+tint2
+clear
+vim .config/bspwm/bspwmrc
+vim .xinitrc
+startx
+vim 
+startx
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+ neofetch
+ranger
+clear
+ls
+rm -rf \\ 
+rm -rf 1
+clear
+sl
+clear
+sl
+clear
+ls
+rm -rf :q
+clear
+ls
+clear
+ neofetch
+cd configs/st-light
+make
+sudo make install
+vim
+conky -r ~/scripts/conky/conky/desktop_conky/conkyrc_mpd
+conky  ~/scripts/conky/conky/desktop_conky/conkyrc_mpd
+startx
+ranger
+\:r
+./wpa.sh
+startx
+neofetch
+neofetch
+perl ~/scripts/scripts/perl/hypnotoad.pl
+sudo pacman -S polybar
+trizen yay
+annie
+trizen polybar
+polybar  
+polybar  --reload
+vim .config/bspwm/bspwmrc
+cd builds
+cd blog
+ls
+git clone https://github.com/bake/solar-theme-hugo.git themes/solar-theme-hugo
+cd themes
+ls
+cd solar-theme-hugo
+cd solar-theme-hugo
+hugo server --theme solar-theme-hugo
+ls
+vim .config/bspwm/bspwmrc
+cp -r /usr/share/doc/polybar/config $XDG_CONFIG_HOME/polybar/config
+cp -r /usr/share/doc/polybar/config ~/.config/polybar/confog
+mkdor .config/polybar
+mkdir .config/polybar
+cp -r /usr/share/doc/polybar/config ~/.config/polybar/config
+vim .config/polybar/config
+vim .config/bspwm/bspwmrc
+startx
+vim .config/polybar/config
+neofetch
+neofetch
+cd configs/st-light
+patch -p1 < patch/st-scrollback-mouse-20191024-a2c479c.diff
+trizen siji
+trizen termsyn
+startx
+vim .config/polybar/config
+startx
+vim .config/polybar/config
+vim configs/dotfiles/.config/polybar/config
+startx
+cd configs/st-nord
+make
+sudo make install
+ranger
+git clone https://github.com/Yucklys/polybar-nord-theme ~/.config/polybar/
+cd .config/polybar
+git clone https://github.com/Yucklys/polybar-nord-theme
+trizen weather-cons
+trizen weather-icons
+cd polybar-nord-theme
+ls
+sudo pacman -S nautilus
+pkill polybar
+./.config/polybar/launch.sh light\
+./.config/polybar/launch.sh light
+pkill polybar
+./.config/polybar/launch.sh dark\
+
+clear
+clear
+vim .config/polybar/nord-config
+pkill polybar
+./.config/polybar/launch.sh dark\
+
+./.config/polybar/launch.sh light\
+
+stratx
+startx
+./.config/polybar/launch.sh light\
+
+vim .config/polybar/nord-config
+./.config/polybar/launch.sh light\
+
+pkill polybar
+./.config/polybar/launch.sh dark\
+
+cd .config/polybar
+git clone https://github.com/Yucklys/polybar-nord-theme
+./.config/polybar/launch.sh dark\
+
+./.config/polybar/launch.sh dark\
+
+vim .config/polybar/nord-top
+vim .config/polybar/nord-down
+startx
+vim builds/seoni/Makefile
+ranger
+neofetch
+vim .xinitrc
+startx
+pacman -Rnsc bspwm sxkhd polybar
+sudo pacman -Rnsc bspwm sxkhd polybar
+sudo pacman -Rnsc bspwm sxhkd polybar
+annie
+neofetch
+xset s off
+xset -dpms
+alsamixer
+cd builds/blog/themes
+hugo -s server
+..
+cd blog
+hugo 0s server
+vim 
+hugo -s server
+ls
+cd themes/meme/
+ls
+vim README.md
+..
+..
+lsa
+ls
+hugo server -D
+cd builds/blog/blog
+ls
+vim archetypes/default.md 
+vim config.toml
+vim content/posts/Emacs_as_windows_manager.md
+vim themes/meme/theme.toml
+vim themes/meme/config-examples/en/config.toml
+vim themes/meme/exampleSite/config.toml
+vim config.toml
+cd builds
+git clone https://github.com/JamshedVesuna/vim-markdown-preview.git
+cd vim-markdown-preview
+ls
+cd plugin
+ls
+..
+ls
+..
+cp -r vim-markdown-preview ~/.vim/bundle
+cd 
+vim builds/blog/blog/content/posts/Emacs_as_windows_manager.md
+vim scripts/scripts/bash/sysinfo.sh
+cat /usr/share/emacs/site-lisp/clisp-coding.el
+vim scripts/scripts/bash/sysinfo.sh
+trizen ghostwrite
+neofetch
+clear
+sudo pacman -Rnsc hugo nodejs
+sudo pacman -Rnsc hugo nodejs
+sudo pacman -Rnsc hexo
+sudo pacman -Rnsc nodejs-hexo
+annie
+neofetch \
+neofetch 
+cd builds
+mkdir myblog
+cd myblog
+..
+rm -rf jekyll
+rm -rf vim-markdown-preview
+rm -rf blog
+rm -rf index.html
+rm -rf seoni
+rm -rf trizen
+vim myblog/emacs.md
+cd 
+cd .vim
+cd bundle
+ls
+cd vim
+cd vim-markdown-preview
+ls
+vim README.md
+..
+rm -rf vim-markdown-preview
+cd
+trizen vim-markdown
+trizen vim-markdown-preview
+trizen vmarkdown-preview
+trizen markdown-preview
+vim builds/myblog/emacs.md
+vim .vimrc
+vim builds/myblog/emacs.md
+vim
+sudo pacman -Rnsc ghostwritter
+sudo pacman -Rnsc ghostwriter
+sudo pacman -Rnsc conky-lua
+annie
+sudo pacman -Rnsc conky
+neofetch
+vim
+annie
+cd builds
+git clone https://github.com/markdowncss/retro.git
+cd retro
+vim README.md
+vim retro.md
+vim index.html
+cd builds/retro
+touch About.html
+vim About.html
+vim builds/retro/About.html
+emacs
+vim .doom.d/config.el
+emacs org
+emacs
+emacs
+emacs
+sudo pacman -S R
+sudo pacman -S r
+sudo pacman -S rstudio
+R
+clear
+cd builds/retro
+ls
+..
+cd myblog
+ls
+pandoc -s emacs.md -o emacs.html
+pandoc -o emacs.md -as emacs.html
+pandoc -o emacs.md -s emacs.html
+vim emacs.md
+sudo pacman -S bspwm sxhkd 
+trizen polybar
+cd .config/polybar
+ls
+rm -rf config
+rm -rf dark-colors
+vim .xinitrc
+startx
+polybar --restore top
+polybar --restore bar
+polybar --restore bAR
+BAR
+cp -r /usr/share/doc/polybar/config ~/.config/polybar
+startx
+sudo pacman -Rnsc gedit nautilus
+annie
+clear
+neofetch
+neofetch
+vim builds/cppweb/hello.cpp
+vim scripts/scripts/latex/prp.tex
+cd configs
+git clone https://github.com/swawesome9598/i3-polybar-config.git
+cd i3-polybar-config
+ls
+cd config
+ls
+cd polybar
+ls
+cd .config/polybar
+mv config config.bkp
+cp -r config ~/.config/polybar
+ls
+vim config
+startx
+ranger
+sudo pacman -S kitty
+vim configs/dotfiles/.xmonad/xmonad.hs
+neofetch
+cd Pictures
+mkdir connect
+cd
+ls
+cp -r 2020-04-13-144722_1366x768_scrot.png ~/Pictures/connect
+cp -r 2020-04-13-144728_1366x768_scrot.png ~/Pictures/connect
+cd Pictures/connect
+feh 2020-04-13-144728_1366x768_scrot.png
+feh 2020-04-13-144722_1366x768_scrot.png
+rm -rf 2020-04-11-131957_1366x768_scrot.png
+rm -rf 2020-04-12-085146_1366x768_scrot.png
+rm -rf 2020-04-12-085850_1366x768_scrot.png
+feh 2020-04-13-144722_1366x768_scrot.png
+vim scripts/horizontalconnect.sh
+convert 2020-04-13-144722_1366x768_scrot.png 2020-04-13-144728_1366x768_scrot.png -append connected.png
+feh connected.png
+vim .config/polybar/config
+vim .config/polybar/config
+neofetch
+vim configs/st-nord
+vim .config/polybar
+polybar --restart
+polybar --restart example
+startx
+vim .vimrc
+clear
+curl -s -L http://bit.ly/10hA8iC | bash
+sudo pacman -Rnsc kitty
+annie
+neofetch
+vim
+sudo pacman -S polybar bspwm sxhkd
+sudo pacman -Rnsc polybar bspwm sxhkd
+annie
+sudo pacman -S qtile
+vim .xinitrc
+startx
+pkill x
+exit
+vim .xinitrc
+startx
+mkdir -p ~/.config/qtile/
+cp /usr/share/doc/<qtile_dir>/default_config.py ~/.config/qtile/config.py
+cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py
+vim .config/qtile/config.py
+cd configs/dotfiles/.config
+cp -r qtile ~/.config
+cd
+rm -rf conky
+vim .xinitrc
+startx
+vim .config/qtile/config.py
+neofetch
+qtile --restart
+startx
+vim .config/qtile/config.py
+startx
+vim 
+vim ~/Documents/bspwm.md
+sudo pacman -S gedit
+sudo pacman -S gedit
+w3m lutherush.github.io
+startx
+vim ~/.config/qtile/config.py
+startx
+\
+	
+neofetch
+annie
+ranger
+vim ~/Documents/qtile.md
+vim .config/qtile/config.py
+xset s off
+xset -dpms
+cd configs
+ls
+rm -rf i3-polybar-config
+rm -rf my-configs
+ls
+la
+ranger
+startx
+startx
+startx
+startx
+xset s off
+xset -dpms
+ranger
+neofetch
+vim .vim/colors/laurice.vim
+cat /proc/meminfo
+free
+vmstat
+clear
+cat /proc/meminfo && free && vmstat
+free && vmstat
+clear
+free && vmstat
+free & vmstat
+grep â€ƒ³color â€ƒ¸Mem|Cache|Swapâ€ƒ¹ /proc/meminfo
+grep â€ƒ³color  /proc/meminfo
+grep   /proc/meminfo
+update
+upgrade
+sudo pacman -S stumpwm
+trizen stumpwm
+annie
+trizen stumpwm
+annie
+neofetch
+sudo pacman -Rnsc gedit
+annie
+neofetch
+sudo pacman -S next
+trizen next
+trizen next-browser
+pacman -Rnsc next-browser
+sudo pacman -Rnsc next-browser
+annie
+cd .config
+ls
+rm -rf i3
+rm -rf kitty
+rm -rf nautilus
+rm -rf sxhkd
+rm -rf tint2
+rm -rf polybar
+cd qtile
+ls
+rm -rf autostart.sh
+rm -rf __pycache__
+rm -rf 
+vim README.md
+irssi
+emacs
+vim config.py
+..
+cp -r qtile ~/configs
+ls
+cp -r zsh.d ~/configs
+ls
+alacritty
+ls
+ghostty
+vim .config/hypr/hyprland.conf
+ls
+vim
+vim .config/hypr/hyprland.conf
+vim
+vim .config/hypr/hyprland.conf
+ls
+exit
+startx
+./.start_hyprland.sh
+exit
+ls
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+yay font-awesome
+yay icons-in-terminal
+exit
+exit
+yazi
+vim .config/waybar/style.css
+vim
+nano
+kiall waybar
+killall waybar
+waybar
+nano
+pkill waybar && waybar &\
+
+nano
+ls
+colors.bright]\
+black = "#4C566A"      # Bright grey\
+red = "#BF616A"        # Bright red\
+green = "#A3BE8C"      # Bright green\
+yellow = "#EBCB8B"     # Bright yellow\
+blue = "#81A1C1"       # Bright blue\
+magenta = "#B48EAD"    # Bright magenta\
+cyan = "#8FBCBB"       # Bright cyan\
+white = C
+exit
+nano
+pkill Hyprland
+./.start_hyprland.sh
+vim .vimrc
+vim .config/hypr/hyprland.conf
+yay hyprshot
+hyprshot
+hyprshot output
+hyprshot output -t 200
+hyprshot output -t 200 -o ~/Documents
+yazi
+yazi
+inxi -Gaz
+hyprctl monitors
+hyprshot output DP-7 -t 200 -o ~/Documents
+hyprctl monitorsc
+hyprctl dispatch screenshot ~/screenshot.png
+sudo pacman -S grim slurp
+grim ~/screenshot.png
+sleep 20 && grim -o DP-7 ~/screenshot.png
+yay lazynvim
+yay lazy
+yay lazy
+yay neovim
+exit
+vim .config/hypr/hyprland.conf
+exit\\
+
+exit
+cd configs/dotfiles
+cd .config
+ls
+vim rofi
+yay hack
+yay ubuntu-mono
+cd .config
+mkdir rofi
+rm -rf rofi
+cp -r rofi ~/.config
+rofi-theme-selector
+rofi-theme-selector
+rofi-theme-selector
+sudo pacman -S pipewire pipewire-pulse pipewire-jack pipewire-alsa wireplumber
+pipewire-media-session
+pipewire-pulse
+ssh lutherus@192.168.178.86
+yay zed
+yay zen
+yay zen-browser
+cd
+yay swaync
+ssh lutherus@192.168.178.86
+ssh lutherus@192.168.178.86
+cd .config
+ls
+nano hypr/hyprland.conf
+vim hypr/hyprland.conf
+cd
+vim .start_hyprland.sh
+yay code
+sudo mount /dev/sda /media
+sudo mount /dev/sda /mnt
+cp -r .config /mnt
+sudo cp -r .config /mnt
+cd /mnt
+sudo mkdir danas
+c
+cd
+cp -r .vimrc /mnt/danas
+sudo cp -r .vimrc /mnt/danas
+sudo cp -r .zshrc /mnt/danas
+sudo cp -r wallpapers /mnt/danas
+sudo umount /dev/sda
+ssh lutherus@192.168.178.86
+vim .config/hypr/hyprland.conf
+ssh lutherus@192.168.178.86
+ssh lutherus@192.168.178.86
+Mroci10yo
+nvim
+yay nvim-lazy
+nvim
+mkdir -p ~/.config/nvim/colors
+cp ~/.vim/colors/* ~/.config/nvim/colors/
+touch ~/.config/nvim/init.lua
+nvim
+nvim
+nvim .vimrc
+git clone --depth 1 https://github.com/wbthomason/packer.nvim \\
+    ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim .vimrc
+nvim .vimrc
+nvim
+yay lualine
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+Working (1)\
+~                      âƒ·ƒ« dashboard.nvim      âƒ¶ƒ€ clone: fatal: could not read Username for 'https://github.com': terminal prompts disabled
+git clone https://github.com/glepnir/dashboard-nvim.git ~/.local/share/nvim/lazy/dashboard-nvim
+git clone https://github.com/glepnir/dashboard-nvim.git ~/.config/nvim/lazy/dashboard-nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+ssh lutherus@192.168.178.86
+nvim
+nvim
+nvim
+nvim
+vim .vimrc
+vim .vimrc
+nvim .vimrc
+nvim .vimrc
+nvim
+nvim .vimrc
+vim .vimrc
+mvim .vimrc
+nvim .vimrc
+nvim
+vim .vim
+vim .vimrc
+nvim
+killall firefox
+nvim
+nvim
+pacman -Rnsc vim
+sudo pacman -Rnsc vim\\
+
+sudo pacman -Rnsc vim
+nvim
+killall firefox
+nvim
+nvim .vimrc
+nvim
+ssh-keygen
+cat ~/.ssh/id_ed25519.pub
+cd builds
+cd
+mkdir work
+cd work
+cd work
+git clone ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGJY1QvvVZKmhi4a+4XJZM5I8UIPAVTn5oz1iHlZ08Xn lutherus@NCC-1701-F
+git clone ssh://git@gitlab.arcware.cloud:2222/development/arcware-cloud.git
+cd
+nvim .vimrc
+nvim .vimrc
+nvim .vimrc
+nvim work/arcware-cloud/k8s/crm-service/base/deployment.yml \\
+
+vim work/arcware-cloud/k8s/crm-service/base/deployment.yml \\
+
+vim work/arcware-cloud/k8s/crm-service/base/deployment.yml \\
+
+nvim work/arcware-cloud/k8s/crm-service/base/deployment.yml \\
+
+nvim .vimrc
+nvim work/arcware-cloud/k8s/crm-service/base/deployment.yml \\
+
+clear
+yay cursor
+yay cursor-bin
+killall firefiox
+killall firefoxc
+killall firefox
+oillall erirefox
+yay zen-browser
+wireplumber
+ systemctl restart --user wireplumber.service
+wireplumber
+pactl load-module
+sudo pacman -S sof-firmware
+wpctl status
+sof-firmware
+systemctl --user status pipewire
+Ãƒ· pipewire.service - PipeWire Multimedia Service\
+     Loaded: loaded (/usr/lib/sys\
+temd/user/pipewire.service; disabled; preset: enabled)\
+     Active: failed (Result: exit-code) since Sat 2025-01-18 22:34:18 CET; 5min ag\
+o\
+   Duration: 72ms\
+ Invocation: 72b9656c533541c295c4da59fa9d5612\
+TriggeredBy: Ãƒ· pipewire.socket\
+    Process: 72587 ExecStart=/usr/bin/pipewire (code=exited, status=245/KSM)\
+   Main PID: 72587 (code=exited, status=245/KSM)\
+\
+Jan 18 22:34:18 NCC-1701-F systemd[863]: pipewire.service: Scheduled restart job, restart cou\
+nter is at 5.\
+Jan 18 22:34:18 NCC-1701-F systemd[863]: pipewire.service\
+: Start request repeated too quickly.\
+Jan 18 22:34:18 NCC-1701-F systemd[863]: pipewire.service\
+: Failed with result 'exit-code'.\
+Jan 18 22:34:18 NCC-1701-F systemd[863]: Failed to start PipeWire Mul\
+timedia Service.
+systemctl --user status pipewire
+sudo systemctl --user status pipewire
+systemctl --user status pipewire
+echo $DBUS_SESSION_BUS_ADDRESS
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus
+echo $XDG_RUNTIME_DIR
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+sudo systemctl --user status pipewire
+yay zen-browser
+sudo pacman -S pipewire pipewire-pulse wireplumber pavucontrol alsa-utils
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+  systemctl --user status pipewire
+systemctl --user status wireplumber
+nvim .config/hypr/hyprland.conf
+# Enable PipeWire for Wayland\
+exec-once = pipewire &\
+exec-once = wireplumber &
+groups | grep audio
+pavucontrol
+journalctl --user -xe | grep pipewire
+systemctl --user restart pipewire pipewire-pulse wireplumber
+mv .start_hyprland.sh startx
+sudo reboot
+./startx
+sudo pacman -Rnsc vim
+nvim .config/zsh.d/aliases
+vim
+vim .vimrc
+sudo pacman -S pavucontrol
+speaker-test -t wav -c 2
+pactl list sinks short
+alsamixer
+systemctl --user restart pipewire pipewire-pulse wireplumber
+python3 --version
+sudo pacman -S python python-pip
+pip3 install --user pynvim
+nvim
+nvim work/arcware-cloud/jest.config.ts
+\:q
+startx
+./startx
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+systemctl --user status pipewire
+systemctl --user status pipewire-pulse
+systemctl --user status wireplumber
+nvim
+systemctl --user restart pipewire pipewire-pulse wireplumber
+systemctl --user enable pipewire pipewire-pulse wireplumber
+\:q
+startx
+./startx
+kiall firefox
+killall firefox
+cd configs
+git clone https://github.com/typecraft-dev/dotfiles.git
+rm -rf dotfiles
+git clone https://github.com/typecraft-dev/dotfiles.git
+cd dotfiles
+ls
+yay -S hyprlock-git
+ls
+nvim ghostty
+mv backgrounds ~/.config
+cp -r waybar ~/.config
+waybar
+cd .config
+ls
+cd waybar
+ls
+killall waybar
+cd waybar
+ls
+yazi
+nvim config.jsonc
+ python3 -m pip install --user --upgrade pynvim 
+systemctl --user status pipewire
+systemctl --user restart pipewire
+systemctl --user list-unit-files | grep pipewire
+nvim
+waybar
+waybar
+sudo systemctl enable pipewire
+yazi
+yay ueberzug
+wofi
+o
+rofi
+rofi
+yay oranchelo
+yay jetbrainsmono
+yay \
+\
+\
+
+yay caskaydia
+pkilll Hypr
+pkill Hypr
+./startx
+ls
+vim
+yay meslo
+exit
+yay hyperlock
+yay hyprlock
+hyprlock
+hyprlock
+hyprlock
+ls
+lq
+lq
+la
+vim .vimrc
+ghostty +list-themes
+ls
+cd configs
+ls
+rm -rf config
+rm  -rf config.h
+rm -rf configs-april-2020
+rm -rf dotfiles
+rm -rf dwl
+la
+cd
